@@ -1,4 +1,4 @@
 FROM codercom/code-server:latest
 USER root
-RUN apt-get install php
+RUN apt-get update
 USER coder
